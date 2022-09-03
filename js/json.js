@@ -1,11 +1,11 @@
-const user = {id: 1, name: 'Gorib Aamir', job: 'actor'};
 // JavaScript Object Notation (JSON)
+const user = {id: 1, name: 'Gorib Aamir', job: 'actor'};
 const stringified = JSON.stringify(user);
 // console.log(user);
 // console.log(stringified);
 /* 
-{ id: 1, name: 'Gorib Aamir', job: 'actor' }
-{"id":1,"name":"Gorib Aamir","job":"actor"}
+{ id: 1, name: 'Gorib Aamir', job: 'actor' }  //OBJECT
+{"id":1,"name":"Gorib Aamir","job":"actor"}   //JSON
 */
 /* JSON সংখ্যা ও বুলিয়ান ছাড়া বাকি সবগুলোকে স্ট্রিং এ রূপান্তর করে */
 
